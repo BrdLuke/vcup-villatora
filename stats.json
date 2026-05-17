@@ -1,0 +1,17 @@
+{
+  "aggiornato_il": "2026-05-17",
+  "giocatori": [
+    {
+      "nome": "PlayerOne",
+      "partite": 45,
+      "gol": 23,
+      "assist": 12
+    },
+    {
+      "nome": "Bomber99",
+      "partite": 42,
+      "gol": 31,
+      "assist": 5
+    }
+  ]
+}
