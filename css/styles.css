@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&family=Tektur:wght@400;500;700;800;900&display=swap');
+
+body {
+    font-family: 'Tektur', sans-serif;
+}
+
+h1,
+h2,
+.font-heading {
+    font-family: 'Syne', sans-serif;
+}
+
+#hero-bg-overlay::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* Motivo a griglia geometrica / rete */
+    background-image:
+        linear-gradient(rgba(249, 115, 22, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(249, 115, 22, 0.05) 1px, transparent 1px),
+        /* Un secondo livello con colori diversi e spessore */
+        linear-gradient(rgba(56, 189, 248, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(56, 189, 248, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px, 20px 20px, 4px 4px, 4px 4px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+#hero-bg-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("./img/basket_campo.webp");
+    opacity: 0.15;
+    z-index: 2;
+    mix-blend-mode: multiply;
+}
+
+.hero-glow-point {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: 0;
+    animation: pulsate 10s ease-in-out infinite;
+    opacity: 0.3;
+}
+
+.glow-1 {
+    width: 40vw;
+    height: 40vw;
+    background: rgba(249, 115, 22, 0.8);
+    top: -10vw;
+    left: -10vw;
+    animation-delay: 0s;
+}
+
+.glow-2 {
+    width: 30vw;
+    height: 30vw;
+    background: rgba(56, 189, 248, 0.6);
+    bottom: -10vw;
+    right: -5vw;
+    animation-delay: -5s;
+}
+
+.glow-3 {
+    width: 15vw;
+    height: 15vw;
+    background: rgba(249, 115, 22, 0.9);
+    top: 10vw;
+    right: 20vw;
+    animation-delay: -2s;
+}
+
+@keyframes pulsate {
+
+    0%,
+    100% {
+        opacity: 0.15;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.45;
+        transform: scale(1.15);
+    }
+}
