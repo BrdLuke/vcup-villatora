@@ -12,6 +12,12 @@
       "partite": 42,
       "gol": 31,
       "assist": 5
+    },
+     {
+      "nome": "test",
+      "partite": 42,
+      "gol": 31,
+      "assist": 5
     }
   ]
 }
