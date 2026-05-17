@@ -1,29 +1,16 @@
 {
-  "aggiornato_il": "2026-05-17",
-  "giocatori": [
+  "aggiornato_il": "17-05-2026",
+  "squadre": [
     {
-      "nome": "PlayerOne",
-      "partite": 45,
-      "gol": 23,
-      "assist": 12
-    },
-    {
-      "nome": "Bomber99",
-      "partite": 42,
-      "gol": 31,
-      "assist": 5
-    },
-     {
-      "nome": "test",
-      "partite": 42,
-      "gol": 31,
-      "assist": 5
-    },
-     {
-      "nome": "test2",
-      "partite": 42,
-      "gol": 31,
-      "assist": 5
+      "nome": "Squadra1",
+      "giocatori": [
+        {
+          "nominativo": "Riccardo Babolin",
+          "punti": 100,
+          "assists": 100,
+          "rimbalzi": 100
+        }
+      ]
     }
   ]
 }
