@@ -2,13 +2,37 @@
   "aggiornato_il": "17-05-2026",
   "squadre": [
     {
-      "nome": "Squadra1",
+      "nome": "Villatora Rockets",
       "giocatori": [
         {
           "nominativo": "Riccardo Babolin",
-          "punti": 100,
-          "assists": 100,
-          "rimbalzi": 100
+          "punti": 124,
+          "assists": 45,
+          "rimbalzi": 38
+        },
+        {
+          "nominativo": "Marco Rossato",
+          "punti": 98,
+          "assists": 82,
+          "rimbalzi": 21
+        },
+        {
+          "nominativo": "Andrea Volpato",
+          "punti": 76,
+          "assists": 31,
+          "rimbalzi": 95
+        },
+        {
+          "nominativo": "Luca Bridi",
+          "punti": 112,
+          "assists": 64,
+          "rimbalzi": 50
+        },
+        {
+          "nominativo": "Federico Gottardo",
+          "punti": 55,
+          "assists": 18,
+          "rimbalzi": 102
         }
       ]
     }
